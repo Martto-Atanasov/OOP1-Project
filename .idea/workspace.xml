@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2e120ed-07fb-4e64-b870-0c41ddc4618f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Commands/CloseFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Commands/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Commands/OpenFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Commands/SaveAsFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Commands/SaveFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Menus/SubMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Menus/TerminalMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/TerminalMenuApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Commands/AddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Commands/AddCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/TerminalMenu/TerminalMenu.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2dgHyuWHXye7FZEtNaPXlOYfRyM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TerminalMenuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TerminalMenuApp" />
+      <module name="src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TerminalMenuApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2e120ed-07fb-4e64-b870-0c41ddc4618f" name="Changes" comment="" />
+      <created>1710423058410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710423058410</updated>
+      <workItem from="1710423061491" duration="1216000" />
+      <workItem from="1710580262428" duration="22000" />
+      <workItem from="1711634081388" duration="711000" />
+      <workItem from="1711751355336" duration="211000" />
+      <workItem from="1711790214223" duration="136000" />
+      <workItem from="1711790382464" duration="62000" />
+      <workItem from="1712392014103" duration="59000" />
+      <workItem from="1712399131221" duration="2318000" />
+    </task>
+    <task id="LOCAL-00001" summary="Declaration of the menu commands">
+      <created>1710424024533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424024533</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creation of the menu">
+      <created>1710424195650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424195650</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Declaration of the menu commands" />
+    <MESSAGE value="Creation of the menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of the menu" />
+  </component>
+</project>
