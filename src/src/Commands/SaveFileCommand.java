@@ -1,10 +1,27 @@
 package Commands;
+import java.io.FileWriter;
+import java.util.Scanner;
 
 public class SaveFileCommand implements Command{
+    private String content;
+
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
     @Override
     public void execute() {
-        System.out.println("Saving file...");
-        // Logic for saving file
-        System.out.println("File saved successfully!");
+        String fileName=new OpenFileCommand().getFileName();
+
+        try (FileWriter fileWriter = new FileWriter(fileName,true)) {
+
+            fileWriter.write("\n" + content);
+            fileWriter.close();
+
+            System.out.println("File saved successfully!");
+        } catch (Exception e) {
+            System.out.println("Error: Unable to save file.");
+        }
     }
 }

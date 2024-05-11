@@ -9,17 +9,18 @@ public class TerminalMenu {
     private final Map<String, Command> mainMenuOptions = new HashMap<>();
     private final Scanner scanner;
 
+
     public TerminalMenu() {
         scanner = new Scanner(System.in);
         mainMenuOptions.put("open", new OpenFileCommand());
         mainMenuOptions.put("close", new CloseFileCommand());
         mainMenuOptions.put("save", new SaveFileCommand());
-        mainMenuOptions.put("saveas", new SaveAsFileCommand());
+        mainMenuOptions.put("save as", new SaveAsFileCommand());
         mainMenuOptions.put("help", new HelpCommand());
     }
 
     public void run() {
-        System.out.println("Welcome to the Terminal File Manager!");
+        System.out.println("Welcome to the Warehouse Manager!");
 
         String userInput;
         do {
