@@ -1,6 +1,7 @@
 package Commands;
 import java.io.FileWriter;
 import java.util.Scanner;
+import java.io.IOException;
 
 public class SaveFileCommand implements Command{
     private String content;
@@ -12,16 +13,23 @@ public class SaveFileCommand implements Command{
 
     @Override
     public void execute() {
-        String fileName=new OpenFileCommand().getFileName();
 
-        try (FileWriter fileWriter = new FileWriter(fileName,true)) {
+            String fileName = OpenFileCommand.getFileName();
+            Scanner fileScanner = OpenFileCommand.getFileScanner();
 
-            fileWriter.write("\n" + content);
-            fileWriter.close();
+            if (fileName == null || fileScanner == null) {
+                System.out.println("No file is currently open.");
+                return;
+            }
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter new content to save to the file:");
+            String newContent = scanner.nextLine();
 
-            System.out.println("File saved successfully!");
-        } catch (Exception e) {
-            System.out.println("Error: Unable to save file.");
-        }
+            try (FileWriter fileWriter = new FileWriter(fileName, true)) {
+                fileWriter.write(newContent + "\n");
+                System.out.println("File saved successfully!");
+            } catch (IOException e) {
+                System.out.println("Error: Unable to save file.");
+            }
     }
 }

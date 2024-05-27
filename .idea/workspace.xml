@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e120ed-07fb-4e64-b870-0c41ddc4618f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/Commands/CloseFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Commands/CloseFileCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/Commands/HelpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Commands/HelpCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/Commands/OpenFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Commands/OpenFileCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/Commands/SaveAsFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Commands/SaveAsFileCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/src/Commands/SaveFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Commands/SaveFileCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/Menus/TerminalMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Menus/TerminalMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/TerminalMenuApp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Commands/CloseFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Commands/CloseFileCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Commands/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Commands/OpenFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Commands/OpenFileCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/Commands/SaveAsFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Commands/SaveAsFileCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/Commands/SaveFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Commands/SaveFileCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Menus/TerminalMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Menus/TerminalMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/TerminalMenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/WarehouseMenuApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +90,9 @@
       <workItem from="1714834604261" duration="317000" />
       <workItem from="1715358799778" duration="68000" />
       <workItem from="1715421771504" duration="13583000" />
+      <workItem from="1716205717664" duration="85000" />
+      <workItem from="1716805308572" duration="2060000" />
+      <workItem from="1716807672479" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="Declaration of the menu commands">
       <created>1710424024533</created>
